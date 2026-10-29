@@ -721,3 +721,27 @@ h2 {
         min-width: auto;
     }
 }
+
+/* Motion: Odysseus tokens (3DFabTH). Only opacity and transform animate. */
+@keyframes fade-in {
+    from { opacity: 0; }
+}
+@keyframes enter {
+    from { opacity: 0; transform: translateY(10px); }
+}
+.animate-fade-in {
+    animation: fade-in 0.3s ease-out var(--stagger-delay, 0ms) both;
+}
+.animate-enter {
+    animation: enter 0.3s ease-out var(--stagger-delay, 0ms) both;
+}
+/* Cascade: each item sets --i; delay capped at 12 steps so long lists never wait over 480ms. */
+.stagger {
+    --stagger-delay: calc(min(var(--i, 0), 12) * 40ms);
+}
+@media (prefers-reduced-motion: reduce) {
+    .animate-fade-in,
+    .animate-enter {
+        animation: none;
+    }
+}
