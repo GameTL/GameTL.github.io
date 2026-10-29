@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#news">News</a>
+                <a href="#publications">Publications</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#activities">Activities</a>
+                <a href="#awards">Awards</a>
+            </div>
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <div class="container">
+        <header>
+            <img src="images/profile.svg" alt="Profile Photo" class="profile-photo">
+            <div class="header-info">
+                <h1>Your Name</h1>
+                <p class="title">Your Title</p>
+                <p class="affiliation">Your Affiliation</p>
+                <p class="email">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+                <div class="links">
+                    <a href="#" class="btn">
+                        Scholar
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="btn">
+                        GitHub
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="bio">
+            <h2>About</h2>
+            <p>
+                Write a short introduction here: your current position, your institution, and who you work with.
+                Link to your lab or advisor with <a href="#">an anchor tag</a>.
+            </p>
+            <p>
+                <strong>Research Interest</strong>: Describe the problems you work on, the principles behind your approach, and the methods you use.
+            </p>
+            <p>
+                <strong>Aspiration</strong>: Describe your long-term goal and the direction you hope to pursue.
+            </p>
+        </section>
+
+        <section id="news" class="news">
+            <h2>Recent News</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <span class="news-date">MM/YYYY</span>
+                    <span class="news-content">Paper accepted at <strong>Conference A</strong>, titled "<em>Paper Title</em>".</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">MM/YYYY</span>
+                    <span class="news-content">Started a new position at <strong>Institution B</strong>.</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">MM/YYYY</span>
+                    <span class="news-content">Received the <strong>Best Paper Award</strong> at <em>Workshop C</em>.</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-date">MM/YYYY</span>
+                    <span class="news-content">Gave an invited talk at <strong>Event D</strong>.</span>
+                </div>
+                <div class="news-item news-extra">
+                    <span class="news-date">MM/YYYY</span>
+                    <span class="news-content">Older news item, hidden until "Show all" is clicked.</span>
+                </div>
+                <div class="news-item news-extra">
+                    <span class="news-date">MM/YYYY</span>
+                    <span class="news-content">Another older news item.</span>
+                </div>
+            </div>
+            <a href="#" class="show-more" id="newsToggle">Show all ↓</a>
+        </section>
+
+        <section id="publications" class="publications">
+            <h2>Publications</h2>
+
+            <div class="pub-filters">
+                <button class="filter-btn active" data-category="topic-a">Topic A</button>
+                <button class="filter-btn" data-category="topic-b">Topic B</button>
+                <button class="filter-btn" data-category="topic-c">Topic C</button>
+                <button class="filter-btn" data-category="all">All</button>
+            </div>
+
+            <!-- Each paper has one or more space-separated categories in data-category.
+                 Add data-all-hidden="true" to hide an entry under "All" (e.g. a duplicate listing). -->
+
+            <div class="paper" data-category="topic-a">
+                <img src="images/paper-placeholder.svg" alt="Paper thumbnail">
+                <div class="paper-info">
+                    <h3>Paper Title That Describes the Work in a Sentence or Two</h3>
+                    <p class="authors"><strong>Your Name</strong>, Coauthor One, and Coauthor Two</p>
+                    <p class="venue">Conference A (<strong>ABC</strong>), 2026</p>
+                    <p class="links">
+                        <a href="#">Paper</a> <a href="#">Website</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="paper" data-category="topic-b">
+                <img src="images/paper-placeholder.svg" alt="Paper thumbnail">
+                <div class="paper-info">
+                    <h3>Second Paper Title, Shown Under Topic B</h3>
+                    <p class="authors">Coauthor One, <strong>Your Name</strong>*, and Coauthor Two</p>
+                    <p class="venue">Journal D (<strong>JDX</strong>), 2025 (<strong>Oral</strong>)</p>
+                    <p class="links">
+                        <a href="#">Paper</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="paper" data-category="topic-c" data-all-hidden="true">
+                <img src="images/paper-placeholder.svg" alt="Paper thumbnail">
+                <div class="paper-info">
+                    <h3>Third Paper Title, Hidden Under "All"</h3>
+                    <p class="authors"><strong>Your Name</strong>, Coauthor One, et al.</p>
+                    <p class="venue">Workshop E, 2025</p>
+                    <p class="links">
+                        <a href="#">Paper</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="paper" data-category="topic-a topic-c">
+                <img src="images/paper-placeholder.svg" alt="Paper thumbnail">
+                <div class="paper-info">
+                    <h3>Fourth Paper Title, Listed Under Two Topics</h3>
+                    <p class="authors">Coauthor One, Coauthor Two, and <strong>Your Name</strong></p>
+                    <p class="venue">Conference F (<strong>FXX</strong>), 2024</p>
+                    <p class="venue"><strong>Best Poster Award</strong>, Workshop G</p>
+                    <p class="links">
+                        <a href="#">Paper</a> <a href="#">Website</a>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <div class="edu-logo">
+                    <img src="images/logo.svg" alt="University A">
+                </div>
+                <div class="edu-content">
+                    <p><strong>University A</strong> (City, Country) <span class="edu-year">09/2020 - 06/2026</span></p>
+                    <p>Ph.D. in Field of Study, Department of Department Name</p>
+                    <p>Advisor: <a href="#">Prof. Advisor Name</a></p>
+                </div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-logo">
+                    <img src="images/logo.svg" alt="University B">
+                </div>
+                <div class="edu-content">
+                    <p><strong>University B</strong> (City, Country) <span class="edu-year">09/2016 - 07/2020</span></p>
+                    <p>B.Eng. in Field of Study</p>
+                    <p>GPA: X.XX/X.X, Ranking: X/XX</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Research Experience</h2>
+            <div class="exp-grid">
+                <div class="exp-item">
+                    <div class="exp-logo">
+                        <img src="images/logo.svg" alt="Institution B">
+                    </div>
+                    <div class="exp-content">
+                        <h3>Lab Name, Institution B</h3>
+                        <p class="exp-date">MM/YYYY - Present</p>
+                        <p class="exp-host">Postdoctoral researcher working with <a href="#">Prof. Name</a></p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-logo">
+                        <img src="images/logo.svg" alt="Company C">
+                    </div>
+                    <div class="exp-content">
+                        <h3>Team Name, Company C</h3>
+                        <p class="exp-date">MM/YYYY - MM/YYYY</p>
+                        <p class="exp-host">Intern, hosted by <a href="#">Dr. Host Name</a></p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-logo">
+                        <img src="images/logo.svg" alt="Institute D">
+                    </div>
+                    <div class="exp-content">
+                        <h3>Center Name, Institute D</h3>
+                        <p class="exp-date">MM/YYYY - MM/YYYY</p>
+                        <p class="exp-host">Visiting student, hosted by <a href="#">Dr. Host Name</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="activities">
+            <h2>Professional Activities</h2>
+            <ul class="activities-list">
+                <li class="activity-item">
+                    <span class="activity-content">Associate Editor for Journal E</span>
+                    <span class="activity-year">2026–present</span>
+                </li>
+                <li class="activity-item">
+                    <span class="activity-content">Organizer of Workshop <a href="#"><em>Workshop Title</em></a></span>
+                    <span class="activity-year">2025</span>
+                </li>
+                <li class="activity-item">
+                    <span class="activity-content"><a href="#">Outstanding Reviewer</a> of Journal E</span>
+                    <span class="activity-year">2024</span>
+                </li>
+                <li class="activity-item"><span class="activity-content">Reviewer for Journal F, Journal G, ...</span></li>
+                <li class="activity-item"><span class="activity-content">Reviewer for Conference H, Conference I, ...</span></li>
+            </ul>
+        </section>
+
+        <section id="awards" class="activities">
+            <h2>Awards, Honors &amp; Grants</h2>
+            <ul class="awards-list">
+                <li class="award-item">
+                    <span class="award-content">Best Paper Award at Workshop C, <a href="#"><em>Workshop Title</em></a></span>
+                    <span class="award-year">2026</span>
+                </li>
+                <li class="award-item">
+                    <span class="award-content">Outstanding Graduate of City</span>
+                    <span class="award-year">2026</span>
+                </li>
+                <li class="award-item">
+                    <span class="award-content">Grant Name (Program Name)</span>
+                    <span class="award-year">2024-2025</span>
+                </li>
+                <li class="award-item">
+                    <span class="award-content">National Scholarship for Graduate Students</span>
+                    <span class="award-year">2024</span>
+                </li>
+                <li class="award-item">
+                    <span class="award-content">Outstanding Graduate of University B</span>
+                    <span class="award-year">2020</span>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Dark mode toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const savedTheme = localStorage.getItem('theme');
+
+        if (savedTheme) {
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+        } else {
+            // Auto-detect system preference
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.classList.add('dark-mode');
+            }
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const category = btn.dataset.category;
+                document.querySelectorAll('.paper').forEach(paper => {
+                    if (category === 'all') {
+                        paper.classList.toggle('hidden', paper.dataset.allHidden === 'true');
+                    } else if (paper.dataset.category.split(' ').includes(category)) {
+                        paper.classList.remove('hidden');
+                    } else {
+                        paper.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // News show all / collapse toggle
+        const newsExtras = document.querySelectorAll('.news-extra');
+        const newsToggle = document.getElementById('newsToggle');
+
+        // Hide extra items on load
+        newsExtras.forEach(el => el.style.display = 'none');
+
+        newsToggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            const expanded = newsToggle.dataset.expanded === 'true';
+            newsExtras.forEach(el => el.style.display = expanded ? 'none' : 'flex');
+            newsToggle.dataset.expanded = String(!expanded);
+            newsToggle.textContent = expanded ? 'Show all ↓' : 'Show less ↑';
+        });
+
+        // Apply default filter on page load
+        const activeBtn = document.querySelector('.filter-btn.active');
+        if (activeBtn) {
+            const category = activeBtn.dataset.category;
+            document.querySelectorAll('.paper').forEach(paper => {
+                if (category === 'all') {
+                    paper.classList.toggle('hidden', paper.dataset.allHidden === 'true');
+                } else if (paper.dataset.category.split(' ').includes(category)) {
+                    paper.classList.remove('hidden');
+                } else {
+                    paper.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
