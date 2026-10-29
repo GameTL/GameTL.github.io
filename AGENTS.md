@@ -24,6 +24,8 @@ Rules for conflicts and recency:
 - Don't add contact details (email, phone, social handles) that the owner hasn't approved for the page. The GitHub profile contains an email. That doesn't make it approved for the site.
 - Keep the HTML valid. After edits, check that every tag is closed.
 - Put local images in `images/` and reference them with relative paths.
+- When you update the homepage, update the profile README (`GameTL/GameTL`, README.md) in the same change, so both show the same publications, experience, education, awards, and links.
+- Local dev first: keep changes uncommitted and don't push until the owner says to push.
 
 ## Search visibility (SEO)
 
