@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://gametl.github.io/sitemap.xml
-Sitemap: https://gametl.github.io/tide-tidal-rust/sitemap.xml
